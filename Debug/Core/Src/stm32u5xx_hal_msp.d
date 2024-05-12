@@ -23,11 +23,10 @@ Core/Src/stm32u5xx_hal_msp.o: ../Core/Src/stm32u5xx_hal_msp.c \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
- ../winc1500/driver/include/m2m_types.h \
- ../winc1500/common/include/nm_common.h ../winc1500/bsp/include/nm_bsp.h \
- ../winc1500/common/include/nm_debug.h \
- ../winc1500/bsp/include/nm_bsp_internal.h ../Core/Inc/secrets.h
+ ../Core/Inc/secrets.h
 ../Core/Inc/main.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
 ../Core/Inc/stm32u5xx_hal_conf.h:
@@ -53,10 +52,7 @@ Core/Src/stm32u5xx_hal_msp.o: ../Core/Src/stm32u5xx_hal_msp.c \
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi.h:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi_ex.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
-../winc1500/driver/include/m2m_types.h:
-../winc1500/common/include/nm_common.h:
-../winc1500/bsp/include/nm_bsp.h:
-../winc1500/common/include/nm_debug.h:
-../winc1500/bsp/include/nm_bsp_internal.h:
 ../Core/Inc/secrets.h:

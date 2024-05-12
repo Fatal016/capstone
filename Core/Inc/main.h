@@ -28,9 +28,8 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32u5xx_hal.h"
-#include "stdio.h"
-#include "driver/include/m2m_types.h"
 #include "secrets.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 

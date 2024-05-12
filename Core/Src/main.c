@@ -19,9 +19,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include <stdbool.h>
 #include <string.h>
+#include <stdio.h>
 
 #include "main.h"
-#include "wifi.h"
 #include "driver/include/m2m_wifi.h"
 #include "conf_winc.h"
 /* Private includes ----------------------------------------------------------*/
@@ -54,10 +54,11 @@ UART_HandleTypeDef UartHandle;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
-void SystemClock_Config(void);
+static void SystemClock_Config(void);
 static void SystemPower_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_ICACHE_Init(void);
+extern void isr(void);
 
 #ifdef __GNUC__
 /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
@@ -66,9 +67,6 @@ static void MX_ICACHE_Init(void);
 #else
 #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
 #endif /* __GNUC__ */
-static void SystemClock_Config(void);
-static void Error_Handler(void);
-extern void isr(void);
 
 /** Index of scan list to request scan result. */
 static uint8_t scan_request_index = 0;
@@ -306,7 +304,7 @@ PUTCHAR_PROTOTYPE
 {
   /* Place your implementation of fputc here */
   /* e.g. write a character to the USART3 and Loop until the end of transmission */
-  HAL_UART_Transmit(&UartHandle, (uint8_t *)&ch, 1, 0xFFFF)
+  HAL_UART_Transmit(&UartHandle, (uint8_t *)&ch, 1, 0xFFFF);
 
   return ch;
 }

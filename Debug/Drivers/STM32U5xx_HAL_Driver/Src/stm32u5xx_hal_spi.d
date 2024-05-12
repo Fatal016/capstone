@@ -1,9 +1,5 @@
-Core/Src/wifi.o: ../Core/Src/wifi.c ../winc1500/driver/include/m2m_wifi.h \
- ../winc1500/common/include/nm_common.h ../winc1500/bsp/include/nm_bsp.h \
- ../winc1500/common/include/nm_debug.h \
- ../winc1500/bsp/include/nm_bsp_internal.h \
- ../winc1500/driver/include/m2m_types.h ../winc1500/driver/source/nmdrv.h \
- /home/couriersix/Git/capstone/winc1500/config/conf_winc.h \
+Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o: \
+ ../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.c \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../Core/Inc/stm32u5xx_hal_conf.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
@@ -28,15 +24,9 @@ Core/Src/wifi.o: ../Core/Src/wifi.c ../winc1500/driver/include/m2m_wifi.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h
-../winc1500/driver/include/m2m_wifi.h:
-../winc1500/common/include/nm_common.h:
-../winc1500/bsp/include/nm_bsp.h:
-../winc1500/common/include/nm_debug.h:
-../winc1500/bsp/include/nm_bsp_internal.h:
-../winc1500/driver/include/m2m_types.h:
-../winc1500/driver/source/nmdrv.h:
-/home/couriersix/Git/capstone/winc1500/config/conf_winc.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
 ../Core/Inc/stm32u5xx_hal_conf.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h:
@@ -61,4 +51,6 @@ Core/Src/wifi.o: ../Core/Src/wifi.c ../winc1500/driver/include/m2m_wifi.h \
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi.h:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_spi_ex.h:
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:

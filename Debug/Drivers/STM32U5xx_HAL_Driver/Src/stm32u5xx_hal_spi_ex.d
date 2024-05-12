@@ -1,5 +1,5 @@
-Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o: \
- ../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c \
+Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o: \
+ ../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../Core/Inc/stm32u5xx_hal_conf.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
